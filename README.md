@@ -111,6 +111,7 @@ Then a real drift test: `k8s/03-hpa.yaml`'s `maxReplicas` was changed from
 `maxReplicas: 4`. After a refresh, Argo CD detected the diff against git
 and applied it automatically — live cluster then showed `maxReplicas: 6`,
 Application still `Synced / Healthy`.
+![image alt](https://github.com/gkoufie1/local-llm-serving-k8s/blob/4a8dd37770b465202728426d6a32ea10e1f8aa5f/gitops.png)
 
 ## Cost
 
