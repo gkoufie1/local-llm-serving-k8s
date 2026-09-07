@@ -82,6 +82,7 @@ llm-serving-84dff49f88-ppr87   682m    556Mi
 
 HPA:  cpu: 264%/50%   min=1  max=4  replicas=4
 ```
+![image alt](https://github.com/gkoufie1/local-llm-serving-k8s/blob/089725682bada9a5fb2c92e428f59be9db0df239/llm.png)
 
 144 requests fired (12 concurrent workers x 12 requests each): **129
 succeeded (200), 15 failed (502)** during the window where demand exceeded
